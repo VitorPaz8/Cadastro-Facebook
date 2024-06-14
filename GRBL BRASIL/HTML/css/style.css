@@ -1,0 +1,131 @@
+body{
+    color: white;
+    background-color:rgb(4, 4, 44);
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.divisor{
+    background-color: rgb(5, 5, 110);
+    padding: 0%;
+    border-bottom: solid;
+    margin:0px;
+    border-radius: 10px;
+    display:flex;
+    border-color: rgb(219, 187, 4);
+    justify-content: space-between;
+}
+.logo{
+    align-items: center;
+    align-self: auto;
+    display: flex;
+}
+span{
+    font-size: 40px;
+    align-self: center;
+}
+.span2{
+    color: rgb(219, 187, 4);
+}
+.logotipo{
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+}
+.titulo{
+    align-self: center;
+    .normal{
+        font-size: 35px;
+        color: rgb(5, 5, 110);
+    }
+}
+.menu{
+    align-self:center;
+    padding: 15px 15px 15px 15px;
+}
+.normal2{
+    padding: 10px;
+    border-radius: 20px;
+    border: solid;
+    border-color: rgb(219, 187, 4);
+    background-color:rgb(7, 87, 179);
+    margin: auto;
+}
+a{
+    color: white;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+.botoes{
+    padding: 100px;
+    align-items: center;
+    align-self: center;
+    display: flex;
+    .normal2{
+        font-size: 20px;
+        padding: 16px 50px 16px 50px;
+        border-color: rgb(5, 5, 110);
+        margin-left: 130px;
+    }
+}
+.card-titulo{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(219, 187, 4);
+    margin: 30px;
+    padding: 0%;
+}
+.slider{
+    width: 70%;
+}
+footer{
+    margin: 2%;
+    margin-bottom: 10%;
+    
+    .card-titulo{
+        text-align: center;
+        color: rgb(219, 187, 4);
+        align-self: end;
+        font-size: 40px;
+        margin-bottom: 0px;
+        }
+    .card-texto{
+        margin: 10px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .sobre{
+        align-items: center;
+        display: flex;
+        margin: 10px;
+    }
+    .conts{
+        background-color: rgb(5, 5, 110);
+        border: 2px solid;
+        border-color: rgb(219, 187, 4);
+        margin: 10px;
+        .card-texto{
+            text-align: justify;
+        }
+        .card-titulo{
+            margin: 30px 10px;
+            text-align: left;
+            font-size: 25px;
+        }
+    }
+    .redes{
+        background-color: rgb(5, 5, 110) ;
+        text-align: center;
+        border: 2px solid;
+        border-color: rgb(219, 187, 4);
+        margin: 10px;
+        .card-texto{
+            text-align: justify;
+        }
+        .card-titulo{
+            margin: 30px 10px;
+            text-align: left;
+            font-size: 25px;
+        }
+    }
+}
