@@ -4,6 +4,29 @@ body{
     margin: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+.principal{
+    margin-top: 5px;
+    display: flex;
+    .card-titulo{
+        font-size: 40px;
+        color: rgb(219, 187, 4);
+        margin-top: 30px;
+        padding: 0%;
+    }
+}
+.nos{
+    margin: 200px 100px;
+    text-align: left;
+    .card-titulo{
+        margin-top: 50px;
+    }
+    .card-texto{
+        font-size: larger;
+    }
+    hr{
+        border-color: rgb(219, 187, 4);
+    }
+}
 .divisor{
     background-color: rgb(5, 5, 110);
     padding: 0%;
@@ -32,22 +55,23 @@ span{
     height: 100px;
 }
 .titulo{
-    align-self: center;
-    .normal{
-        font-size: 35px;
-        color: rgb(5, 5, 110);
-    }
+    text-align: center;
+    font-size: 40px;
+    color: rgb(219, 187, 4);
+    margin: 30px;
+
 }
 .menu{
     align-self:center;
     padding: 15px 15px 15px 15px;
 }
-.normal2{
+.normal{
+    transition: 0.1s;
     padding: 10px;
-    border-radius: 20px;
-    border: solid;
+    border-radius: 10px;
+    border: 2px solid;
     border-color: rgb(219, 187, 4);
-    background-color:rgb(7, 87, 179);
+    background-color:rgb(5, 5, 110);
     margin: auto;
 }
 a{
@@ -58,8 +82,6 @@ a{
 }
 .botoes{
     padding: 100px;
-    align-items: center;
-    align-self: center;
     display: flex;
     .normal2{
         font-size: 20px;
@@ -68,64 +90,73 @@ a{
         margin-left: 130px;
     }
 }
-.card-titulo{
-    text-align: center;
-    font-size: 40px;
-    color: rgb(219, 187, 4);
-    margin: 30px;
-    padding: 0%;
-}
 .slider{
-    width: 70%;
+    width: 100%;
 }
-footer{
-    margin: 2%;
-    margin-bottom: 10%;
-    
+.sobre{
+    margin: 0px 10px;
+    display: flex;
     .card-titulo{
-        text-align: center;
         color: rgb(219, 187, 4);
-        align-self: end;
-        font-size: 40px;
-        margin-bottom: 0px;
+        font-size: 25px;
+        margin-left: 50px;
         }
     .card-texto{
-        margin: 10px;
-        margin-bottom: 20px;
-        text-align: center;
-    }
-    .sobre{
-        align-items: center;
-        display: flex;
-        margin: 10px;
+        display: inline-block;
+        margin: 0 50px 15px 50px;
     }
     .conts{
+        transition: 0.2s;
+        padding: 0px;
         background-color: rgb(5, 5, 110);
         border: 2px solid;
         border-color: rgb(219, 187, 4);
+        border-radius: 10px;
         margin: 10px;
-        .card-texto{
-            text-align: justify;
-        }
-        .card-titulo{
-            margin: 30px 10px;
-            text-align: left;
-            font-size: 25px;
-        }
+    }
+    .conts:hover{
+        scale: 1.02;
     }
     .redes{
+        transition: 0.2s;
         background-color: rgb(5, 5, 110) ;
-        text-align: center;
         border: 2px solid;
         border-color: rgb(219, 187, 4);
+        border-radius: 10px;
         margin: 10px;
-        .card-texto{
-            text-align: justify;
-        }
-        .card-titulo{
-            margin: 30px 10px;
-            text-align: left;
-            font-size: 25px;
-        }
     }
+    .redes:hover{
+        scale: 1.02;
+    }
+}
+footer{
+    margin: 40px 30px;
+    text-align: justify;
+    .titulo{
+        text-align: justify;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 700px) {
+    .principal{
+        display: block;
+    }
+    .sobre{
+        display: block;
+    }
+    .nos{
+        margin: 0 20px;
+    }
+    .menu{
+        padding: 0 20px 0 0;
+    }
+    .logotipo{
+        margin: 0px;
+        width: 100px;
+        height: 100px;
+    }
+    
+}
+@media screen and (max-width: 400px){
+    
 }
